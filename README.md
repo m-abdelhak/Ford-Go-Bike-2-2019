@@ -48,6 +48,7 @@ By continue analysis I got the following:
 -	From (30 to 35) have the highest riding durations, and Zone #3 & #4 have the superiors
 
 Data Source:
+
 [Download Dataset used](https://s3.amazonaws.com/fordgobike-data/201902-fordgobike-tripdata.csv.zip)
 
 [Datasets for differrent dates](https://s3.amazonaws.com/fordgobike-data/index.html)
@@ -55,7 +56,8 @@ Data Source:
 [Check also that repository](https://github.com/juliaYi/Ford-GoBike-Data-Visualization)
 
 Imported Packages:
-'''
+
+```
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -63,8 +65,7 @@ import seaborn as sb
 import math
 
 %matplotlib inline
-'''
+```
 
-
-[^Note]: 
-  Udacity Advanced Data Analysis Nanodegree graduation project #3
+[^Note]:
+    Udacity Advanced Data Analysis Nanodegree graduation project #3.
