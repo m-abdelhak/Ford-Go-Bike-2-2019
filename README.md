@@ -1,4 +1,4 @@
-# Ford-Go-Bike-2-2019
+# Ford-Go-Bike-2-2019 [^Note]
 This data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area.
 
 And the target from that wrangling effort is to detect the week and strong points in service performance to help development team to take the right decisions to increase company performance and profit.
@@ -46,3 +46,25 @@ By continue analysis I got the following:
 -	Females and Males shares almost the same age distribution, but males have slightly higher older distribution than females.
 -	Younger people tend to be customers than subscribers.
 -	From (30 to 35) have the highest riding durations, and Zone #3 & #4 have the superiors
+
+Data Source:
+[Download Dataset used](https://s3.amazonaws.com/fordgobike-data/201902-fordgobike-tripdata.csv.zip)
+
+[Datasets for differrent dates](https://s3.amazonaws.com/fordgobike-data/index.html)
+
+[Check also that repository](https://github.com/juliaYi/Ford-GoBike-Data-Visualization)
+
+Imported Packages:
+'''
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sb
+import math
+
+%matplotlib inline
+'''
+
+
+[^Note]: 
+  Udacity Advanced Data Analysis Nanodegree graduation project #3
